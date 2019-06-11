@@ -1,4 +1,3 @@
-
 'use strict';
 const gulp = require('gulp');
 const sass = require('gulp-sass');
@@ -39,7 +38,7 @@ gulp.task('pages', function buildHTML(){
   		.pipe(pug())
   		.pipe(gulp.dest('./build/'))
   		.pipe(browserSync.reload({stream: true}));
-});
+})
 
 gulp.task('scripts', function(){
 	return gulp.src('./src/scripts/main.js')
@@ -47,17 +46,16 @@ gulp.task('scripts', function(){
 		.pipe(babel())
   		.pipe(gulp.dest('./build/assets/scripts/'))
   		.pipe(browserSync.reload({stream: true}));
-});
+})
 
 gulp.task('compressed-js', function() {  
     return gulp.src('./src/scripts/*.js')
-        .pipe(uglify())
         .pipe(gulp.dest('build/assets/scripts'));
-});
+})
 
 gulp.task('clean', function () {
     return del('build');
-});
+})
 
 gulp.task('watch', function(){
 	gulp.watch('./src/scripts/**/*.js', gulp.series('scripts'));

@@ -18,6 +18,9 @@ header{
         margin-right: 10px;
       }
     }
+    .-active {
+      color: $yellow;
+    }
     a {
       text-decoration: none;
       color: $red;
@@ -27,6 +30,8 @@ header{
       margin-right: 40px;
       font-size: 16px;
       text-transform: lowercase;
+
+
       &:hover {
         color: $yellow;
         transition: .3s;

@@ -1,10 +1,10 @@
 header
   .container
     .links-contaier
-      a(href='#home') Главная
-      a(href='#about') Реклама в подскастах
-      a(href='#mark') Медийная реклама
-      a(href='#ad') Реклама у блоггеров
+      a(href='#home' class="-active" id="firstLink" onClick="k=0;detectPage()") Главная
+      a(href='#about' id="secondLink" onClick="k=1;detectPage()") Реклама в подскастах
+      a(href='#mark' id="thirdLink" onClick="k=2;detectPage()") Медийная реклама
+      a(href='#ad' id="fourthLink" class="" onClick="k=3;detectPage()") Реклама у блоггеров
     .phone-contaier
       img(src="./assets/img/phone.png")
       a(href='tel:+70000000000') +7 000-000-00-00
