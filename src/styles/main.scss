@@ -6,6 +6,7 @@
 @import 'components/footer';
 @import 'components/background';
 @import 'components/section-about';
+@import 'components/section-ad';
 .container {
   width: 1080px;
   margin: 0 auto;
@@ -25,7 +26,9 @@ body{
 * {
   box-sizing: border-box;
 }
-.second-section{
+.second-section,
+.third-section,
+.fourt-section{
   background-image: url("../img/background.jpg");
   //background-size: cover;
   background-repeat: no-repeat;
