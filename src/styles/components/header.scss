@@ -1,0 +1,39 @@
+header{
+  z-index: 324324;
+  position: fixed;
+  padding: 50px 0;
+  margin-bottom: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .phone-contaier{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      img{
+        margin-right: 10px;
+      }
+    }
+    a {
+      text-decoration: none;
+      color: $red;
+      font-family: "Gotham Pro";
+      font-weight: normal;
+      font-style:normal;
+      margin-right: 40px;
+      font-size: 16px;
+      text-transform: lowercase;
+      &:hover {
+        color: $yellow;
+        transition: .3s;
+      }
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+}

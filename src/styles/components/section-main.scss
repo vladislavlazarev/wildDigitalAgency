@@ -1,0 +1,78 @@
+.section-main{
+  .container {
+    margin-bottom: 90px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    h1 {
+      font-family: "Gotham Pro";
+      //color: #fff;
+      font-size: 40px;
+      margin-bottom: 60px;
+      font-weight: 300;
+      line-height: 1.5;
+    }
+    p{
+      font-size: 12px;
+      font-family: "Gotham Light";
+      font-weight: 100;
+      margin-bottom: 25px;
+      opacity: 0.8;
+
+    }
+    .bold {
+      font-family: "Gotham Bold";
+      opacity: 1;
+    }
+    p.bold{
+      font-family: "Gotham Pro";
+      margin-bottom: 60px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .weWillSend {
+      margin-bottom: 30px;
+    }
+    .form-holder{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      input {
+        padding: 15px 20px;
+        width: 270px;
+        border-radius: 30px;
+        color: black;
+        font-family: "Gotham Pro";
+        font-size: 12px;
+        text-decoration: none;
+        outline: none;
+        border: none;
+        box-shadow: 0 0 20px rgba(255,20,10,0.8);
+      }
+      input::-webkit-input-placeholder{
+        font-family: "Gotham Bold";
+        color: black;
+      }
+      input:-moz-placeholder{
+        font-family: "Gotham Bold";
+        color: black;
+      }
+      .btn {
+        padding: 13px 30px;
+        color: black;
+        font-family: "Gotham Pro";
+        font-weight: 700;
+        background-color: #ffc80a;
+        border-radius: 30px;
+        box-shadow: 0 0 20px rgba(255,20,10,0.8);
+        margin-left: 30px;
+      }
+    }
+    .right-part{
+      .BigLogoImg{
+        width: 120%;
+        transform: translateX(-20%);
+      }
+    }
+  }
+}

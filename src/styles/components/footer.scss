@@ -1,0 +1,74 @@
+footer{
+  z-index: 2341124;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  .footer {
+    position: relative;
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .icons {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        cursor: pointer;
+
+        a:nth-child(2) {
+          margin: 0 60px;
+        }
+      }
+
+      .privacy {
+        font-size: 14px;
+        color: $red;
+        cursor: pointer;
+        font-family: "Gotham Pro";
+      }
+
+      .video {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        a {
+          margin-right: 50px;
+        }
+      }
+
+      .video-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: $red;
+        cursor: pointer;
+        font-family: "Gotham Pro";
+
+        img {
+          margin-left: 20px;
+
+        }
+      }
+
+      .fixedArrow {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-image: url("../img/arrowDown.png");
+        background-color: $yellow;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        background-position: center;
+        box-shadow: 0 0 30px rgba(255, 20, 10, 1);
+        &:hover {
+          transition: .3s;
+        }
+      }
+
+    }
+  }
+
+}

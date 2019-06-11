@@ -1,0 +1,36 @@
+@import './variables';
+@import './fonts';
+@import 'components/header';
+@import 'components/section-main';
+@import '../fonts/gothamPro';
+@import 'components/footer';
+@import 'components/background';
+@import 'components/section-about';
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+body{
+  background-color: #961722;
+}
+.first-section,
+.second-section,
+.third-section,
+.fourt-section {
+  height: 100vh;
+  padding: 210px 0 0 0 ;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+.second-section{
+  background-image: url("../img/background.jpg");
+  //background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+a{
+  cursor: pointer;
+}
