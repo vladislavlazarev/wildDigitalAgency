@@ -7,28 +7,32 @@
 @import 'components/background';
 @import 'components/section-about';
 @import 'components/section-ad';
+@import 'components/section-marketing';
+
+* {
+  box-sizing: border-box;
+}
 .container {
   width: 1080px;
   margin: 0 auto;
 }
 body{
   background-color: #961722;
+  margin: 0;
+  padding: 0;
 }
 .first-section,
 .second-section,
 .third-section,
-.fourt-section {
+.fourth-section {
   height: 100vh;
   padding: 210px 0 0 0 ;
   position: relative;
 }
 
-* {
-  box-sizing: border-box;
-}
 .second-section,
 .third-section,
-.fourt-section{
+.fourth-section{
   background-image: url("../img/background.jpg");
   //background-size: cover;
   background-repeat: no-repeat;
