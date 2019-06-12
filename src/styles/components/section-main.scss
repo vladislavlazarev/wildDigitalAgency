@@ -48,6 +48,7 @@
         outline: none;
         border: none;
         box-shadow: 0 0 20px rgba(255,20,10,0.8);
+
       }
       input::-webkit-input-placeholder{
         font-family: "Gotham Bold";
@@ -66,6 +67,7 @@
         border-radius: 30px;
         box-shadow: 0 0 20px rgba(255,20,10,0.8);
         margin-left: 30px;
+        cursor: pointer;
       }
     }
     .right-part{

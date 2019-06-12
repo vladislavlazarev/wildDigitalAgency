@@ -1,5 +1,4 @@
 p.background {
-  font-size: 230px;
   font-family: "Gotham Black";
   color: #8c141e;
   position: absolute;
@@ -9,4 +8,11 @@ p.background {
   transform: translate(-50%, -50%);
   letter-spacing: 50px;
   line-height: 1.6;
+  font-size: 230px;
+}
+  @media ( min-width: 1024px ){
+  font-size: 190px!important;
+}
+  @media (min-width: 1440px) {
+  font-size: 230px;
 }

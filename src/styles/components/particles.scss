@@ -1,0 +1,25 @@
+.particle-container{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 12341234213123;
+  a{
+    .particle{
+      width: 6px;
+      height: 6px;
+      background-color: #bf2e30;
+      margin-bottom: 30px;
+      border-radius: 50%;
+    }
+    .-activeParticle{
+      background-color: $yellow;
+      box-shadow: 0 0 10px rgba(255, 200, 10, 1);
+      width: 10px;
+      height: 10px;
+    }
+  }
+}

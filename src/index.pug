@@ -7,16 +7,21 @@ html(lang="en")
 		title Wild Digital Agency
 		link(type="text/css" rel="stylesheet" href="./assets/css/main.css")
 	body
-		.first-section(id="home")
-			include includes/background.pug
-			include includes/header.pug
-			include includes/section-main.pug
+		.desktop
 			include includes/footer.pug
-		.second-section(id="about")
-			include includes/section-about.pug
-		.third-section(id="mark")
-			include includes/section-marketing.pug
-		.fourth-section(id="ad")
-			include includes/section-ad.pug
+			include includes/particles.pug
+			include includes/header.pug
+			include includes/background.pug
+			.first-section(id="home")
+				include includes/section-main.pug
+			.second-section(id="about")
+				include includes/section-about.pug
+			.third-section(id="mark")
+				include includes/section-marketing.pug
+			.fourth-section(id="ad")
+				include includes/section-ad.pug
+		.mobile
+			include includes/sidebar
+			include includes/mobile-FirstPage
 		script(type="text/javascript" src="assets/scripts/main.js")
-		script(type="text/javascript" src="assets/scripts/script.js")
+		script(type="text/javascript" src="./assets/scripts/script.js")
